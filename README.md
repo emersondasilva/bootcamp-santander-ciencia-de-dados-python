@@ -1,6 +1,3 @@
-# bootcamp-santander-ciencia-de-dados-python
-Resumos do Bootcamp Santander - Ciência de Dados com Python
-
 # 📊 Bootcamp Santander - Ciência de Dados com Python
 
 Repositório com recursos organizados das aulas do Bootcamp Santander - Ciência de Dados com Python.
