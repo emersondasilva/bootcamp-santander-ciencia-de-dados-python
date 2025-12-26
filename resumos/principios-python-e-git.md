@@ -1,4 +1,4 @@
-# 📚 Princípios de Python – Introdução e Ambiente de Desenvolvimento
+# Princípios de Python – Introdução e Ambiente de Desenvolvimento
 
 ## 🎯 Objetivo do Módulo
 
@@ -87,4 +87,77 @@ Visual Studio Code (VS Code)
 
 Alternativamente, pode-se usar o PyCharm, mas o VS Code será a minha ferramenta principal.
 
+## 🧱 Tipos de Dados em Python
 
+### 🔹 O que são tipos? 
+
+Os tipos definem:  
+
+* As características de um valor
+* O comportamento desse valor
+* As operações que podem ser realizadas
+* A forma como o valor é armazenado na memória
+
+## ❓ Por que usamos tipos?
+
+* Garantem operações corretas
+* Definem o consumo de memória
+* Permitem que o interpretador entenda como manipular os dados
+
+## 🔢 Tipos Numéricos
+
+### 🔸 Inteiros (int)
+
+* Representam números inteiros
+* Possuem precisão ilimitada
+
+Exemplos:
+```python
+1
+10
+-100
+```
+
+### 🔸 Ponto flutuante (float)
+
+* Representam números racionais (com casas decimais)
+
+Exemplos
+```python
+1.5
+-10.543
+0.76
+```
+## 🔘 Booleanos e Strings
+
+### 🔸 Booleanos (bool)
+
+Representam valores lógicos:
+
+* ```True```  
+
+* ```False```
+
+Em Python:
+
+* ```True``` equivale a 1
+* ```False``` equivale a 0
+* Qualquer número diferente de zero é considerado verdadeiro
+
+### 🔸 Strings (str)
+
+Representam textos ou cadeias de caracteres.
+
+Podem ser definidas com:
+
+* Aspas simples
+* Aspas duplas
+* Aspas triplas
+
+Exemplos:
+```python
+"Python"
+'Python'
+"""Python"""
+'p'
+```
