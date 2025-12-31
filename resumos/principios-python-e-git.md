@@ -161,3 +161,87 @@ Exemplos:
 """Python"""
 'p'
 ```
+## 🧪 Modo Interativo do Python
+
+### 🔹 O que é o modo interativo?
+
+O modo interativo permite escrever comandos Python diretamente no interpretador e visualizar o resultado imediatamente, sendo muito útil para testes rápidos e aprendizado.
+
+### ▶️ Como iniciar o modo interativo
+
+Iniciando apenas o interpretador:
+```bash
+python
+```
+Executando um script e mantendo o interpretador ativo:
+```bash
+python -i app.py
+```
+
+### 🧠 Vantagens do modo interativo
+
+* Execução imediata dos comandos
+* Ideal para testes rápidos
+* Facilita o aprendizado da linguagem
+* Não exige criação de arquivos
+
+## 🔍 Funções ```dir()``` e ```help()```
+
+### 🔹 Função ```dir()```
+
+A função ```dir()``` retorna:  
+
+* Sem argumentos: lista de nomes no escopo atual
+* Com argumento: lista de atributos válidos de um objeto
+
+Exemplos:
+```python
+dir()
+dir(100)
+```
+### 🔹 Função ```help()```
+
+A função ```help()``` invoca o sistema de ajuda integrado do Python, permitindo consultar documentação diretamente no terminal.
+
+Exemplos:
+```python
+help()
+help(100)
+```
+Essa funcionalidade permite acessar documentação offline, direto no interpretador.
+
+## 🧮 Variáveis e Constantes
+
+### 🔹 Variáveis
+
+Variáveis são utilizadas para armazenar valores que podem ser alterados durante a execução do programa.
+
+Em Python:
+
+* Não é necessário declarar o tipo
+* O tipo é inferido automaticamente
+* Não é possível criar uma variável sem atribuir um valor
+
+Exemplo:
+```python
+idade = 25
+idade = 30
+```
+### 🔹 Constantes
+
+Constantes são valores que não devem ser alterados durante a execução do programa. Python não possui palavra reservada para constantes.
+
+A convenção utilizada é:
+
+* Nome da constante em letras maiúsculas
+```python
+PI = 3.14159
+TAXA_JUROS = 0.05
+```
+### 🧠 Boas práticas
+
+* Utilizar snake_case para nomes de variáveis
+* Escolher nomes claros e significativos
+* Utilizar letras maiúsculas para constantes
+* Evitar nomes genéricos como ```x```, ```y```, ```temp```
+
