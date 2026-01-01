@@ -245,3 +245,100 @@ TAXA_JUROS = 0.05
 * Utilizar letras maiúsculas para constantes
 * Evitar nomes genéricos como ```x```, ```y```, ```temp```
 
+## 🔄 Conversão de Tipos em Python
+
+### 🔹 O que é conversão de tipos?
+
+Em alguns cenários, é necessário converter o tipo de uma variável para manipulá-la corretamente. Isso ocorre, por exemplo, quando um valor é recebido como string, mas precisa ser utilizado em uma operação matemática.
+
+### 🔢 Conversões mais comuns
+
+#### 🔸 Inteiro para ponto flutuante
+
+```python
+numero = 10
+numero_float = float(numero)
+```
+#### 🔸 Ponto flutuante para inteiro
+
+```python
+valor = 9.7
+valor_int = int(valor)
+```
+A conversão de ```float``` para ```int``` remove as casas decimais, não arredonda.
+
+#### 🔸 Conversão por divisão
+
+```python
+resultado = 10 / 3
+```
+O resultado de uma divisão em Python sempre será float.
+
+#### 🔸 Numérico para string
+
+```python
+idade = 25
+idade_str = str(idade)
+```
+#### 🔸 String para número
+
+```python
+numero = int("10")
+valor = float("3.14")
+```
+## ⚠️ Erro de conversão
+
+Ocorre quando tentamos converter um valor incompatível:
+
+```python
+int("Python")
+```
+Gera um erro do tipo:
+
+```
+ValueError
+```
+## ⌨️ Funções de Entrada e Saída
+
+### 🔹 Função ```input()```
+
+A função ```input()``` é utilizada para ler dados da entrada padrão (teclado).\
+
+Características:
+
+
+* Sempre retorna uma ```string```
+* Pode exibir uma mensagem ao usuário
+
+Exemplo:
+
+```python
+nome = input("Digite seu nome: ")
+```
+### 🔄 Convertendo o valor de entrada
+
+Como ```input()``` retorna ```string```, é comum realizar conversão:
+
+```python
+idade = int(input("Digite sua idade: "))
+```
+## 🖨️ Função ```print()```
+
+A função ```print()``` exibe informações na saída padrão (tela).
+
+Exemplo simples:
+
+```python
+print("Olá, mundo!")
+```
+### 🔧 Parâmetros da função ```print()```
+
+```python
+print("Python", "é", "incrível", sep=" ", end="!")
+```
+Principais parâmetros:
+
+* ```sep``` → separador entre os valores
+* ```end``` → final da linha
+* ```file``` → destino da saída
+* ```flush``` → força a limpeza do buffer
