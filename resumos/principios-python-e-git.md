@@ -302,7 +302,7 @@ ValueError
 
 ### 🔹 Função ```input()```
 
-A função ```input()``` é utilizada para ler dados da entrada padrão (teclado).\
+A função ```input()``` é utilizada para ler dados da entrada padrão (teclado).
 
 Características:
 
@@ -342,3 +342,179 @@ Principais parâmetros:
 * ```end``` → final da linha
 * ```file``` → destino da saída
 * ```flush``` → força a limpeza do buffer
+
+# 🔧 Versionamento de Código com Git e GitHub
+
+## 🎯 Objetivo
+
+Introduzir os conceitos de versionamento de código e apresentar as ferramentas Git e GitHub, utilizadas para controle de versões e colaboração em projetos de software.
+
+## 📌 O que é Versionamento de Código?
+
+Versionamento de código é o processo de registrar, organizar e controlar as alterações feitas em arquivos ao longo do tempo.
+
+Permite:
+
+* Acompanhar histórico de mudanças
+* Recuperar versões anteriores
+* Trabalhar em equipe com segurança
+* Evitar perda de código
+
+## 🗂️ Sistemas de Controle de Versão (VCS)
+
+Um VCS (Version Control System):
+
+* Registra alterações nos arquivos
+* Identifica autor, data e conteúdo das mudanças
+* Controla diferentes versões de um projeto
+
+### Tipos de VCS
+
+#### 🔹 Centralizado (CVCS)
+
+* Um servidor central armazena o histórico
+* Exemplo: CVS, Subversion
+
+#### 🔹 Distribuído (DVCS)
+
+* Cada clone possui o histórico completo
+* Permite trabalhar offline
+* Maior segurança
+
+Exemplos:
+* Git
+* Mercurial
+
+## 🧠 O que é Git?
+
+Git é um sistema de controle de versão distribuído.
+
+Características:
+
+* Gratuito e open source
+* Leve e rápido
+* Forte suporte a branches e merges
+* Muito utilizado em projetos open source e corporativos
+
+### 📜 Breve histórico do Git
+
+* Criado em 2005 por Linus Torvalds
+* Desenvolvido após a perda da licença do BitKeeper
+* Criado para gerenciar o código do kernel Linux
+
+## 🌐 O que é GitHub?
+
+GitHub é uma plataforma de hospedagem de código que utiliza Git.
+
+Permite:
+
+* Armazenar repositórios remotos
+* Colaboração entre desenvolvedores
+* Controle de versões
+* Issues, Pull Requests e documentação
+
+📌 **Git ≠ GitHub**  
+Git é a ferramenta de versionamento  
+GitHub é a plataforma que hospeda repositórios Git
+
+## 🔁 Fluxo básico do Git
+
+```bash
+git clone    #Clona um repositório remoto
+git add      #Adiciona arquivos para o commit
+git commit   #Registra as alterações
+git pull     #Atualiza o repositório local
+git push     #Envia alterações para o repositório remoto
+```
+## 🧪 Principais comandos Git
+
+### 🔹 Inicializar um repositório
+
+```bash
+git init
+```
+
+### 🔹 Ver status dos arquivos
+
+```bash
+git status
+```
+
+### 🔹 Adicionar arquivos ao commit
+
+```bash
+git add arquivo.md
+git add pasta/
+```
+
+### 🔹 Criar um commit
+
+```bash
+git commit -m "mensagem descritiva"
+```
+
+### 🔹 Enviar alterações para o GitHub
+
+```bash
+git push
+```
+
+### 🔹 Atualizar repositório local
+
+```bash
+git pull
+```
+
+## 🌿 Trabalhando com Branches
+
+Branches são ramificações do projeto.
+
+Permitem: 
+
+* Desenvolver novas funcionalidades
+* Testar código sem afetar a branch principal
+
+Comandos básicos:
+
+```bash
+git branch
+git checkout -b nova-branch
+git branch -d nome-da-branch
+```
+
+## 🔐 Autenticação no GitHub
+
+O GitHub não aceita mais senha para operações Git.
+
+Formas de autenticação: 
+
+* Token de acesso (PAT)
+* Chave SSH
+
+📌 Recomendado:
+
+* Usar Token ou SSH
+* Ativar autenticação em dois fatores (2FA)
+
+## 📚 Boas práticas com Git
+
+* Commits pequenos e frequentes
+* Mensagens claras e objetivas
+* Versionar apenas o que faz parte do projeto
+* Manter o repositório organizado
+
+## ✅ Conclusão do Módulo 01
+
+Neste módulo foram abordados os fundamentos essenciais para o início do desenvolvimento com Python e o uso de versionamento de código, incluindo:
+
+* Introdução ao Python e sua história
+* Configuração do ambiente de desenvolvimento
+* Tipos de dados
+* Modo interativo
+* Variáveis e constantes
+* Conversão de tipos
+* Entrada e saída de dados
+* Conceitos de Git e GitHub
+* Fluxo básico de versionamento
+
+Esses conhecimentos formam a base necessária para avançar nos estudos de Ciência de Dados com Python e no desenvolvimento de projetos versionados.
