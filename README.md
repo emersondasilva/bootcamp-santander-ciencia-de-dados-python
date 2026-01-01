@@ -19,3 +19,6 @@ Repositório com recursos organizados das aulas do Bootcamp Santander - Ciência
 * Python
 * Markdown
 * Git e GitHub
+
+## 📌 Observação
+Este repositório não substitui o conteúdo oficial do bootcamp.
